@@ -5,9 +5,6 @@
         https://www.lua.org/ftp/
 */
 
-// #include "lua-5.4.0/src/lauxlib.h"
-// #include "lua-5.4.0/src/lualib.h"
-// #include "lua-5.4.0/src/lua.h"
 #include <lua/lauxlib.h>
 #include <lua/lualib.h>
 #include <lua/lua.h>

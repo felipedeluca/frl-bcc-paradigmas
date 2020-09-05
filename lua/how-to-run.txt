@@ -1,4 +1,7 @@
-Compile C code:
+Compile hello_lua c code:
     gcc -O2 -Wall -fPIC -llua -shared -o hello_lua.so hello_lua.c
 Run Lua script:
     lua hello_c.lua
+
+Compile bhaskara c code:
+    gcc -O2 -Wall -fPIC -llua bhaskara.c -o bk
